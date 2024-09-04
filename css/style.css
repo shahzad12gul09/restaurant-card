@@ -12,10 +12,7 @@
 }
 
 .firstpage {
-    background-image: url(../img/frontpage.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: black;
 }
 .secondpage{
     background-image: url(../img/back-img.jpeg);
@@ -30,12 +27,10 @@
   font-size: 2.3rem;
 }
 
-@media screen and (max-width: 780px) {
-    .menu-category h2{
-        /* margin-top: 47%; */
-        font-family: "Permanent Marker", cursive;
-        font-weight: 100;
-        font-style: normal;
-        font-size: 2.3rem;
-    }
+.heading{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 4.5rem;
+    text-decoration: line-through black;
 }
