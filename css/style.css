@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.menu-category {
+    min-height: 100vh;
+}
+
+.food-item {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    opacity: 0; 
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.firstpage {
+    background-image: url(../img/frontpage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.secondpage{
+    background-image: url(../img/back-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+.main-heading{
+  color: #FDAE39;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+@media screen and (max-width: 780px) {
+    .menu-category h2{
+        /* margin-top: 47%; */
+        font-family: "Permanent Marker", cursive;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 2.3rem;
+    }
+}
