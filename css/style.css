@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* Downloaded Fonts */
+@font-face{
+    font-family: 'BerkshireSwash-Regular';
+    src: url('/fonts/BerkshireSwash-Regular.ttf');
+}
+@font-face {
+    font-family: 'Agrandir-WideLight';
+    src: url('/fonts/Agrandir/Agrandir-WideLight.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agrandir-WideLight';
+}
 .menu-category {
     min-height: 100vh;
 }
@@ -16,6 +31,7 @@
 }
 .context{
     font-size: 16px;
+    font-family: 'BerkshireSwash-Regular';
 }
 .secondpage{
     background-image: url(../img/back-img.jpeg);
@@ -25,15 +41,23 @@
 }
 .main-heading{
   color: #FDAE39;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+  font-family: 'BerkshireSwash-Regular';
+  font-weight: 400;
   font-size: 2.3rem;
 }
 
 .heading{
-    font-family: "Permanent Marker", cursive;
+    font-family: "BerkshireSwash-Regular";
     font-weight: 100;
     font-style: normal;
-    font-size: 4.5rem;
-    text-decoration: line-through black;
+    font-size: 5.5rem;
+    /* text-decoration: line-through black; */
+}
+.small-heading{ 
+    top: 17px;
+    left: 43.5%;
+    font-size: x-large;
+}
+.food-heading{
+    font-family: "BerkshireSwash-Regular";
 }
