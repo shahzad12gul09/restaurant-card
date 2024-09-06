@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* Downloaded Fonts */
 @font-face{
-    font-family: 'BerkshireSwash-Regular';
+    font-family: 'BerkshireSwash-Regular'; !important
     src: url('/fonts/BerkshireSwash-Regular.ttf');
 }
 @font-face {
-    font-family: 'Agrandir-WideLight';
+    font-family: 'Agrandir-WideLight'; !important
     src: url('/fonts/Agrandir/Agrandir-WideLight.otf');
 }
 *{
