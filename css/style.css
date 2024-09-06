@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* Downloaded Fonts */
 @font-face{
-    font-family: 'BerkshireSwash-Regular'; !important
-    src: url('/fonts/BerkshireSwash-Regular.ttf');
+    font-family: 'BerkshireSwash-Regular';
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
 }
 @font-face {
-    font-family: 'Agrandir-WideLight'; !important
-    src: url('/fonts/Agrandir/Agrandir-WideLight.otf');
+    font-family: 'Agrandir-WideLight';
+    src: url('../fonts/Agrandir/Agrandir-WideLight.otf');
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Agrandir-WideLight';
+    font-family: 'Agrandir-WideLight' !important;
 }
 .menu-category {
     min-height: 100vh;
@@ -31,7 +30,7 @@
 }
 .context{
     font-size: 16px;
-    font-family: 'BerkshireSwash-Regular';
+    font-family: 'BerkshireSwash-Regular' !important;
 }
 .secondpage{
     background-image: url(../img/back-img.jpeg);
@@ -41,13 +40,13 @@
 }
 .main-heading{
   color: #FDAE39;
-  font-family: 'BerkshireSwash-Regular';
+  font-family: 'BerkshireSwash-Regular' !important;
   font-weight: 400;
   font-size: 2.3rem;
 }
 
 .heading{
-    font-family: "BerkshireSwash-Regular";
+    font-family: "BerkshireSwash-Regular" !important;
     font-weight: 100;
     font-style: normal;
     font-size: 5.5rem;
@@ -59,5 +58,5 @@
     font-size: x-large;
 }
 .food-heading{
-    font-family: "BerkshireSwash-Regular";
+    font-family: "BerkshireSwash-Regular" !important;
 }
