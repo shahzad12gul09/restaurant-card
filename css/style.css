@@ -13,8 +13,26 @@
     box-sizing: border-box;
     font-family: 'Agrandir-WideLight' !important;
 }
-.carousel-item {
+/* Preloader */
+.preloader{
     height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it's on top */
+}
+.gif{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+.carousel-item {
+    min-height: 100vh;
 }
 
 .food-item {
