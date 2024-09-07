@@ -27,7 +27,6 @@
     z-index: 9999; /* Make sure it's on top */
 }
 .gif{
-    margin-top: 100px;
     width: 250px;
     height: 250px;
 }
