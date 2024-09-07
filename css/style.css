@@ -14,7 +14,7 @@
     font-family: 'Agrandir-WideLight' !important;
 }
 .carousel-item {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .food-item {
