@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div id="menuCarousel" class="carousel slide">
+    <!-- Pre Loader -->
+    <div class="preloader" id="preloader">
+      <img src="/img/preload.gif" class="gif" alt="Loading...">
+  </div>
+  <!-- Menu Slider -->
+    <div id="menuCarousel" class="carousel slide d-none">
       <div class="carousel-inner">
         <!-- Slide 1 -->
         <div class="carousel-item active firstpage">
@@ -24,15 +29,15 @@
               </div>
               <ul class="list-unstyled text-center mt-5">
                   <li class="food-item context my-0">Try our Spicy Mexican Wings—crispy, marinated, and absolutely delicious!</li><hr style="height:3px;border:none;color:white;background-color:white;">
-                  <li class="food-item my-0">
+                  <li class="food-item context my-0">
                       <span><i class="fa-solid fa-location-dot ml-2"></i></span>
                       2545 Sunrise Avenue, Suite 12
                   </li>
-                  <li class="food-item my-0">
+                  <li class="food-item context my-0">
                     <span><i class="fa-solid fa-phone ml-2"></i></span>
                     <a href="#" class="text-decoration-none text-white">0312-3456789</a>
                 </li>
-                  <li class="food-item my-0">
+                  <li class="food-item context my-0">
                       <span><i class="fa-solid fa-link ml-2"></i></span>
                       <a href="https://www.codepro.com.pk/" class="text-decoration-none text-white">www.codepro.com.pk</a>
                   </li>
@@ -45,8 +50,8 @@
           <div class="container menu-category mt-5">
             <div class="container text-white ">
                 <h5 class="">Warner & Spencer</h5>
-                <h1 class="main-heading mt-4 food-item">Japanese <br>Menu</h1>
-                <h4 class="mt-5 food-item food-heading">Speciality  Rolls</h4>
+                <h1 class="main-heading mt-4 food-item">JAPANESE <br>MENU</h1>
+                <h4 class="mt-5 food-item food-heading">SPECIALTY  ROLLS</h4>
                 <div class="row">
                     <div class="col-6 mt-1">
                         <ul class="list-unstyled">
@@ -65,7 +70,7 @@
                         </ul>
                     </div>
                 </div>
-                <h4 class="mt-2 food-item  food-heading">Vegetarian Sushi</h4>
+                <h4 class="mt-2 food-item  food-heading">VEGETARIAN  SUSHI</h4>
                 <div class="row">
                     <div class="col-6 mt-1">
                         <ul class="list-unstyled">
@@ -110,6 +115,18 @@
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+      // Preloader
+      document.addEventListener("DOMContentLoaded", function() {
+        const preloader = document.getElementById('preloader');
+        const content = document.getElementById('menuCarousel');
+
+        // Simulate loading time (remove this for production)
+        setTimeout(() => {
+          preloader.classList.add("d-none");
+          content.classList.remove("d-none");
+        }, 2000); // Adjust time as needed or remove for actual loading
+      });
+
       function animateItems() {
         const activeSlide = document.querySelector(".carousel-item.active");
         const items = activeSlide.querySelectorAll(".food-item");
