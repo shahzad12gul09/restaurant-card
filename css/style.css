@@ -15,7 +15,7 @@
 }
 /* Preloader */
 .preloader{
-    height: 100vh;
+    height: 100vh !important;
     background-color: black;
     position: fixed;
     top: 0;
