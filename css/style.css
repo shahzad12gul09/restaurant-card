@@ -37,7 +37,6 @@ body{
 }
 
 .food-item {
-    font-size: 1.2rem;
     margin: 15px 0;
     opacity: 0; 
     transform: translateX(-100%);
@@ -78,4 +77,8 @@ body{
 }
 .food-heading{
     font-family: "BerkshireSwash-Regular" !important;
+}
+
+li{
+    font-size: 17px;
 }
